@@ -1,0 +1,36 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Screeny Architecture",
+  "colors": {
+    "primary": "#8B6F47",
+    "light": "#D4B896",
+    "dark": "#5C4A2E"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Architecture",
+        "groups": [
+          {
+            "group": "The Book",
+            "pages": [
+              "architecture/00-index",
+              "architecture/01-apple-api-constraints",
+              "architecture/02-project-anatomy",
+              "architecture/03-data-model-and-ipc",
+              "architecture/04-blocking-engine",
+              "architecture/05-extensions",
+              "architecture/06-stats-system",
+              "architecture/07-ui-architecture",
+              "architecture/08-blockers-and-bugs",
+              "architecture/09-alternatives-explored",
+              "architecture/10-roadmap",
+              "architecture/11-diagrams"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
